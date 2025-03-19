@@ -1,0 +1,156 @@
+<!DOCTYPE HTML>
+<html lang="en-US">
+
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<meta name="title" content="Love Website | Aoudumber Bade">
+    <meta name="github" content="https://github.com/Aoudumber-Bade">
+	<!-- Modernizr -->
+	<script src="static/js/modernizr.js"></script>
+	<!-- Open Sans from Google Webfonts -->
+	<link href='static/css/css.css' rel='stylesheet' type='text/css'>
+	<!-- Main styles file -->
+	<link rel="stylesheet" href="static/css/styles.css">
+	<!-- Icons via Font Awesome -->
+	<link rel="stylesheet" href="static/css/font-awesome.min.css">
+
+	<title>OUR STORY</title>
+</head>
+
+<body class="color-scheme-neue">
+	<!-- Animated background -->
+	<canvas id="bg-canvas"></canvas>
+	<div class="bg-img"
+		style="width: 100%; height: 100%; position: fixed; background: url(https://cdn.jsdelivr.net/gh/MasterKeee/picture/love.jpg) no-repeat center center; background-size: cover; ">
+	</div>
+	<!-- First screen -->
+	<div class="splash">
+		<div class="centered-unit">
+			<div class="container">
+				<!-- Main header -->
+				<h1>For us！</h1>
+				<!-- Sub header -->
+				<p class="lead">We have been together for:</p>
+
+				<!-- Countdown -->
+				<div class="countdown circled large">
+					<!-- Days -->
+					<div class="time days">
+						<div class="value">00</div>
+						<div class="unit">Days</div>
+					</div>
+					<!-- Hours -->
+					<div class="time hours">
+						<div class="value">00</div>
+						<div class="unit">Hours</div>
+					</div>
+					<!-- Minutes -->
+					<div class="time minutes">
+						<div class="value">00</div>
+						<div class="unit">Minutes</div>
+					</div>
+					<!-- Seconds -->
+					<div class="time seconds">
+						<div class="value">00</div>
+						<div class="unit">Seconds</div>
+					</div>
+				</div>
+				<!-- Countdown end -->
+			</div>
+		</div>
+	</div>
+
+	<!-- Second screen -->
+	<div class="overlap">
+
+		<!-- Link "Scroll down to learn more" -->
+		<a href="" class="more">Scroll Down <i class="fa fa-chevron-down"></i> More</a>
+
+		<!-- Detailed info -->
+		<div class="container few-words">
+			<div class="row">
+				<!-- First column -->
+				<div class="col col-heading">
+					<!-- Detailed info -->
+					<h2>Our Beautiful Story📚</h2><br>
+				</div>
+				<!-- First column end -->
+
+				<!-- Second column -->
+				<div class="col col-content">
+					<p>&#128197; The First Interaction - We were both little kids, innocent and carefree. One night at 1 AM, I sent a message in the all-chat of PUBG, which led to a friend request from you. We played our first game together, exchanging simple greetings like "Hey" and "Hello." After that, I sent you a request, but you didn’t accept it immediately. The next day, you finally accepted, marking the beginning of our friendship.</p>
+					
+					<p>&#128197; The Beginning of Our Friendship - In the early days, you used to ignore me. Whenever I sent a request, you wouldn’t accept it. You played with your other friends while I waited. One night, after you rejected my request again, I messaged you personally, saying, "If you don’t want to play, just unfriend me; I’m already frustrated." That was the moment you finally replied, and from there, our real friendship started.</p>
+				
+					<p>&#128197; Late Night Chats & Motivation - As we continued talking, our conversations became more frequent, especially at night. You motivated me a lot, and we started playing together regularly. However, there was a friend of yours who kept us from getting too close. You played with him more and even kicked me out of the group at times. Despite all that, you were still my best friend.</p>
+				
+					<p>&#128197; Breaks & Waiting for You - There were times when you had to take breaks from the game due to your studies. I would check daily to see if you were online, hoping to talk to you. Sometimes, you would come online for just a day after 90 days. It continued like this until one day, I got a message from you on Instagram.</p>
+				
+					<p>&#128197; Our Bond Grew Stronger - After that, we started talking daily on Instagram. One day, when I didn’t message first, you asked me to. That’s when our bond became even stronger. We talked daily, and over time, we became close… closer… and eventually, besties. Those were the best days of my life—chatting late at night, laughing, sharing happy and sad moments together.</p>
+				
+					<p>&#128197; The Best Day of My Life - The most unforgettable day of my life was March 18, 2024, the day I saw you for the first time. That moment will always be my favorite memory. I can never forget it.</p>
+				
+					<p>&#128197; Hard Times & A Hopeful Future - Over time, our friendship faced struggles, mostly because of my mistakes. Things changed, and we drifted apart. But I still cherish every moment we spent together. Now, we are busy in our lives, and though we don’t talk as much as before, whatever little time we do get together is still special to me.</p>
+				
+					<p>&#128197; A Promise - No matter what happens, I will always value our bond. I truly miss our late-night chats, our fun, and everything we shared. Maybe one day, we’ll return to being the same besties again. Until then, I’ll always be here, hoping for that time to come back. &#10084;&#65039;</p>
+				</div>
+				
+				
+				<!-- Second column end -->
+
+			</div>
+		</div>
+		<!-- Detailed info block end -->
+
+		<!-- Footer -->
+		<div class="footer">
+			<div class="container" style="text-align: center;">
+				
+			</div>
+		</div>
+		<!-- Footer end -->
+	</div>
+
+	<div id="copy">
+		<p class="text-center text-white text-sm"><a
+			href="">FAIZAN MATI</a></p>
+	  </div>
+
+	<!-- JavaScripts -->
+
+	<script src="static/js/jquery.js"></script>
+	<script src="static/js/countdown.js"></script>
+	<script src="static/js/bezierCanvas.js"></script>
+	<script src="static/js/notifyMe.js"></script>
+
+	<script type="text/javascript">
+		$().ready(function () {
+
+			// Activate countdownTimer plugin on a '.countdown' element
+			$(".countdown").countdownTimer({
+				// Set the end date for the countdown
+				endTime: new Date("March 18, 2019 00:00:00 UTC+0800")
+			});
+
+			// Activate notifyMe plugin on a '#notifyMe' element	
+			$("#notifyMe").notifyMe();
+
+			// Activate bezierCanvas plugin on a #bg-canvas element
+			$("#bg-canvas").bezierCanvas({
+				maxStyles: 3,
+				maxLines: 80,
+				strokeWidth: 0.5,
+				lineSpacing: 0.07,
+				spacingVariation: 0.07,
+				colorBase: { r: 100, g: 120, b: 200 },
+				colorVariation: { r: 50, g: 50, b: 50 },
+				globalAlpha: 0.4,
+				globalSpeed: 200,
+			});
+		});
+	</script>
+
+</body>
+
+</html>
